@@ -1,0 +1,6 @@
+database:
+  url: 'localhost'
+  user: 'wordpress'
+  password: 'wordpress'
+  name: 'wordpress'
+  driver: 'mysql+pymysql'

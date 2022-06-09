@@ -1,0 +1,22 @@
+{
+    "name": "audio-ml",
+
+    "context": "..",
+
+    "build":{
+        "dockerfile": "./src/Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "python.defaultInterpreterPath":"/usr/local/bin/python"
+    },
+    "extensions": ["ms-python.python"],
+    "forwardPorts": [8080],
+    "mounts": ["source=C:/Users/Modius/Documents/development/crud/,target=/mnt/host/source/crud,type=bind",
+               "source=C:/Users/Modius/Documents/development/crud/configs,target=/mnt/host/configs,type=bind"],
+    "containerEnv": {
+        "SOURCE_PATH":"/mnt/host/source",
+        "DATA_PATH": "/mnt/host/data",
+        "PYTHONPATH": "/mnt/host/source"
+    }
+}
