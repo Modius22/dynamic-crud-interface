@@ -45,10 +45,15 @@ class DB:
 
         return result
 
+    def set_tabel_field(self, key, value):
+        # Base = automap_base()
+        # @ToDo: how can this be implemented
+        pass
 
-test = DB()
 
-x = test.get_table_names()
-y = test.get_table_columns("test")
+# test = DB()
 
-data = test.get_table_data_all("test")
+# x = test.get_table_names()
+# y = test.get_table_columns("test")
+#
+# data = test.get_table_data_all("test")

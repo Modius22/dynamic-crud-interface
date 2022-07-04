@@ -1,5 +1,5 @@
 database:
-  url: 'localhost'
+  url: '192.168.2.151'
   user: 'wordpress'
   password: 'wordpress'
   name: 'wordpress'
