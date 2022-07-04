@@ -1,19 +1,11 @@
 import json
 
-# import fastapi
 import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from uvicorn.config import logger
 
 import helpers.db as db
-
-# from urllib.parse import _DefragResultBase
-
-
-# from flask import Flask
-# from flask_cors import CORS, cross_origin
-
 
 app = FastAPI()
 
@@ -29,26 +21,29 @@ app.add_middleware(
 
 
 @app.get("/")
-# @cross_origin()
 def hello_world():  # put application's code here
     return "Hello World!"
 
 
 @app.get("/get_db_names")
-# @cross_origin()
 def get_db_data():
-    test = db.DB()
-    data = test.get_table_names()
-    return json.dumps(data)
+    try:
+        test = db.DB()
+        data = test.get_table_names()
+        return json.dumps(data)
+    except Exception as e:
+        logger.info("Error in api call get_db_names: {}".format(e))
 
 
 @app.get("/{table}/get_table_structure")
-# @cross_origin()
 async def get_table_structure(table: str):
-    test = db.DB()
-    logger.info(table)
-    data = test.get_table_columns(table)
-    return data
+    try:
+        test = db.DB()
+        logger.info(table)
+        data = test.get_table_columns(table)
+        return data
+    except Exception as e:
+        logger.info("Error in api call get_table_structure: {}".format(e))
 
 
 # @app.get("/{table}/{key}")
