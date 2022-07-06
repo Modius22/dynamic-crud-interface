@@ -136,3 +136,4 @@ test.py
 # own
 frontend*
 .devcontainer.json
+src/config.yaml
