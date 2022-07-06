@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "7c96161a-933b-40f9-9a47-501c01e5e3de",
+		"name": "crud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000",
+					"host": [
+						"localhost"
+					],
+					"port": "2000"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/get_db_names",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/get_db_names",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"get_db_names"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/<table>/get_table_strucutre/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/wp_posts/get_table_structure/ ",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"wp_posts",
+						"get_table_structure",
+						" "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/<table>/<key>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/wp_posts/1",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"wp_posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/table_data/<table>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2000/table_data/wp_posts",
+					"host": [
+						"localhost"
+					],
+					"port": "2000",
+					"path": [
+						"table_data",
+						"wp_posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
