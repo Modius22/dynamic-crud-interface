@@ -23,7 +23,7 @@ Activate pre commit chekcs:  ```pre-commit install```
 
 ## Testing
 
-For testing I am currently using a wordpress instance. 
+For testing I am currently using a wordpress instance. For other setups you need to change the src/config.yaml.
 Here is the Docker Compose file
 
 ```
