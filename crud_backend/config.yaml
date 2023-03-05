@@ -1,0 +1,6 @@
+database:
+  url: '192.168.0.211'
+  user: 'wordpress'
+  password: 'wordpress'
+  name: 'wordpress'
+  driver: 'mysql+pymysql'
