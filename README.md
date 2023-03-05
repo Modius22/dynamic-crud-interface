@@ -26,8 +26,7 @@ Activate pre commit chekcs:  ```pre-commit install```
 For testing I am currently using a wordpress instance. For other setups you need to change the src/config.yaml.
 
  **Note** 
- for the connection to the sql server of the docker compose use the ip add
- ress of the host system
+ for the connection to the sql server of the docker compose use the ip address of the host system
 
 Here is the Docker Compose file
 
