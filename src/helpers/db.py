@@ -13,7 +13,17 @@ class DB:
 
         db = cfg["database"]
         self.engine = create_engine(
-            db["driver"] + "://" + db["user"] + ":" + db["password"] + "@" + db["url"] + "/" + db["name"]
+            db["driver"]
+            + "://"
+            + db["user"]
+            + ":"
+            + db["password"]
+            + "@"
+            + db["url"]
+            + ":"
+            + db["port"]
+            + "/"
+            + db["name"]
         )
         sess = sessionmaker(bind=self.engine)
         self.session = sess()
