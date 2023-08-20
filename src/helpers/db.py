@@ -1,132 +1,199 @@
-import helpers.db as db
-import uvicorn
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+import logging
 
-app = FastAPI()
-
-origins = ["*"]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+import yaml
+from sqlalchemy import MetaData, create_engine, inspect
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import sessionmaker
 
 
-def hello_world():
+class DB:
     """
-    Returns a simple "Hello World!" message.
+    A class for interacting with a SQL database.
 
-    Returns:
-        str: A simple "Hello World!" message.
+    Attributes:
+        engine (sqlalchemy.engine.base.Engine): The database engine.
+        session (sqlalchemy.orm.session.Session): The database session.
+        meta (sqlalchemy.schema.MetaData): The database metadata.
+        inspector (sqlalchemy.engine.reflection.Inspector): The database inspector.
+        logger (logging.Logger): The logger for the class.
     """
-    return "Hello World!"
 
+    def __init__(self, path="./"):
+        """
+        Initializes a new instance of the DB class.
 
-def get_db_data():
-    """
-    Returns a list of all table names in the database.
+        Args:
+            path (str): The path to the configuration file for the database.
+        """
+        # Load database configuration from file
+        with open(path + "config.yaml") as ymlfile:
+            cfg = yaml.safe_load(ymlfile)
 
-    Returns:
-        list: A list of all table names in the database.
-    """
-    try:
-        test = db.DB()
-        data = test.get_table_names()
-        return data
-    except Exception as e:
-        app.logger.error(f"Error in api call get_db_names: {e}")
+        # Create database engine
+        db = cfg["database"]
+        self.engine = create_engine(
+            db["driver"]
+            + "://"
+            + db["user"]
+            + ":"
+            + db["password"]
+            + "@"
+            + db["url"]
+            + ":"
+            + db["port"]
+            + "/"
+            + db["name"]
+        )
 
+        # Create database session
+        sess = sessionmaker(bind=self.engine)
+        self.session = sess()
 
-def get_table_structure(table: str):
-    """
-    Returns a dictionary of all columns in the specified table.
+        # Create database metadata and inspector
+        self.meta = MetaData()
+        self.inspector = inspect(self.engine)
 
-    Args:
-        table (str): The name of the table to retrieve column information for.
+        # Create logger for the class
+        self.logger = logging.getLogger(__name__)
+        self.logger.setLevel(logging.INFO)
 
-    Returns:
-        dict: A dictionary of all columns in the specified table.
-    """
-    try:
-        test = db.DB()
-        app.logger.info(table)
-        data = test.get_table_columns(table)
-        return data
-    except Exception as e:
-        app.logger.error(f"Error in api call get_table_structure: {e}")
+        formatter = logging.Formatter("%(asctime)s:%(name)s:%(levelname)s:%(message)s")
 
+        file_handler = logging.FileHandler("db.log")
+        file_handler.setFormatter(formatter)
 
-def get_table_data(table: str):
-    """
-    Returns all data in the specified table.
+        self.logger.addHandler(file_handler)
 
-    Args:
-        table (str): The name of the table to retrieve data for.
+    def get_engine(self):
+        """
+        Returns the database engine.
 
-    Returns:
-        list: All data in the specified table.
-    """
-    app.logger.info(f"get table data of table: {table}")
+        Returns:
+            sqlalchemy.engine.base.Engine: The database engine.
+        """
+        return self.engine
 
-    test = db.DB()
+    def get_session(self):
+        """
+        Returns the database session.
 
-    data = test.get_table_data_all(table)
-    return data
+        Returns:
+            sqlalchemy.orm.session.Session: The database session.
+        """
+        return self.session
 
+    def get_table_names(self):
+        """
+        Returns a list of all table names in the database.
 
-@app.get("/")
-async def root():
-    """
-    Returns a simple "Hello World!" message.
+        Returns:
+            list: A list of all table names in the database.
+        """
+        try:
+            return self.inspector.get_table_names()
+        except Exception as e:
+            self.logger.error(f"Error in get_table_names: {e}")
 
-    Returns:
-        str: A simple "Hello World!" message.
-    """
-    return hello_world()
+    def get_table_columns(self, table):
+        """
+        Returns a dictionary of all columns in the specified table.
 
+        Args:
+            table (str): The name of the table to retrieve column information for.
 
-@app.get("/get_db_names")
-async def read_db_names():
-    """
-    Returns a list of all table names in the database.
+        Returns:
+            dict: A dictionary of all columns in the specified table.
+        """
+        try:
+            dicts = {}
+            for x in self.inspector.get_columns(table_name=table):
+                dicts[x["name"]] = str(x["type"])
+            return dicts
+        except Exception as e:
+            self.logger.error(f"Error in get_table_columns: {e}")
 
-    Returns:
-        list: A list of all table names in the database.
-    """
-    return get_db_data()
+    def get_table_data_all(self, table):
+        """
+        Returns all data in the specified table.
 
+        Args:
+            table (str): The name of the table to retrieve data for.
 
-@app.get("/{table}/get_table_structure")
-async def read_table_structure(table: str):
-    """
-    Returns a dictionary of all columns in the specified table.
+        Returns:
+            list: All data in the specified table.
+        """
+        try:
+            base = automap_base()
+            base.prepare(self.engine, reflect=True)
+            result = self.session.query(base.classes[table]).all()
 
-    Args:
-        table (str): The name of the table to retrieve column information for.
+            return result
+        except Exception as e:
+            self.logger.error(f"Error in get_table_data_all: {e}")
 
-    Returns:
-        dict: A dictionary of all columns in the specified table.
-    """
-    return get_table_structure(table)
+    def set_table_field(self, table, field, value):
+        """
+        Sets the value of a field in the database.
 
+        Args:
+            table (str): The name of the table to update.
+            field (str): The name of the field to update.
+            value (any): The new value for the field.
 
-@app.get("/table_data/{table}")
-async def read_table_data(table: str):
-    """
-    Returns all data in the specified table.
+        Returns:
+            bool: True if the update was successful, False otherwise.
+        """
+        try:
+            # Get the table object
+            base = automap_base()
+            base.prepare(self.engine, reflect=True)
+            table_obj = base.classes[table]
 
-    Args:
-        table (str): The name of the table to retrieve data for.
+            # Update the field value
+            row = self.session.query(table_obj).first()
+            setattr(row, field, value)
+            self.session.commit()
 
-    Returns:
-        list: All data in the specified table.
-    """
-    return get_table_data(table)
+            self.logger.info(f"Field {field} in table {table} updated successfully")
+            return True
 
+        except Exception as e:
+            self.logger.error(f"Error in set_table_field: {e}")
+            return False
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=2000)
+    def update_table_structure(self, table: str, new_schema: dict):
+        """
+        Updates the schema of the specified table.
+
+        Args:
+            table (str): The name of the table to update.
+            new_schema (dict): The new schema for the table.
+
+        Returns:
+            bool: True if the update was successful, False otherwise.
+        """
+        try:
+            columns = self.get_table_columns(table)
+
+            # Check if all columns in new schema exist in current schema
+            for column in new_schema:
+                if column not in columns:
+                    self.logger.error(f"Column {column} does not exist in table {table}")
+                    return False
+
+            # Check if all columns in current schema exist in new schema
+            for column in columns:
+                if column not in new_schema:
+                    self.logger.error(f"Column {column} is missing in new schema for table {table}")
+                    return False
+
+            # Update table schema
+            for column, data_type in new_schema.items():
+                self.engine.execute(f"ALTER TABLE {table} ALTER COLUMN {column} TYPE {data_type}")
+
+            self.logger.info(f"Table {table} schema updated successfully")
+            return True
+
+        except Exception as e:
+            self.logger.error(f"Error in update_table_structure: {e}")
+            return False
