@@ -1,14 +1,15 @@
 import json
 
 import yaml
-from sqlalchemy import MetaData, create_engine, inspect
+from sqlalchemy import MetaData, create_engine, inspect, insert
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import sessionmaker
 
 
+
 class DB:
-    def __init__(self):
-        with open("./config.yaml", "r") as ymlfile:
+    def __init__(self, path='./'):
+        with open(path + "config.yaml", "r") as ymlfile:
             cfg = yaml.safe_load(ymlfile)
 
         db = cfg["database"]

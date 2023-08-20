@@ -1,12 +1,4 @@
 black
-flake8
-flake8-bugbear
-flake8-bugbear
-flake8-comprehensions
-flake8-docstrings
-flake8-noqa
-mccabe
+ruff;python_version>="3.7"  # ruff only supports Python>3.7 so we're linting only there
 pre-commit
-pycodestyle
-pydocstyle
-pyflakes
+ 
