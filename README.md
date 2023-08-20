@@ -18,12 +18,16 @@ pip install -r requirements.txt
 pip install -r requirements-dev.txt
 pip install -r requirements-test.txt
 ```
-
+ 
 Activate pre commit chekcs:  ```pre-commit install```
 
 ## Testing
 
 For testing I am currently using a wordpress instance. For other setups you need to change the src/config.yaml.
+
+ **Note** 
+ for the connection to the sql server of the docker compose use the ip address of the host system
+
 Here is the Docker Compose file
 
 ```

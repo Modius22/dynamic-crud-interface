@@ -1,19 +1,30 @@
 import json
 
 import yaml
-from sqlalchemy import MetaData, create_engine, inspect
+from sqlalchemy import MetaData, create_engine, inspect, insert
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import sessionmaker
 
 
+
 class DB:
-    def __init__(self):
-        with open("./config.yaml", "r") as ymlfile:
+    def __init__(self, path='./'):
+        with open(path + "config.yaml", "r") as ymlfile:
             cfg = yaml.safe_load(ymlfile)
 
         db = cfg["database"]
         self.engine = create_engine(
-            db["driver"] + "://" + db["user"] + ":" + db["password"] + "@" + db["url"] + "/" + db["name"]
+            db["driver"]
+            + "://"
+            + db["user"]
+            + ":"
+            + db["password"]
+            + "@"
+            + db["url"]
+            + ":"
+            + db["port"]
+            + "/"
+            + db["name"]
         )
         sess = sessionmaker(bind=self.engine)
         self.session = sess()

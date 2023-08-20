@@ -1,0 +1,1023 @@
+RewriteCond %{REQUEST_URI} ^\/allgemein\/python\-mysql\-verbindung\-mit\-mysql\-connector\/$
+RewriteRule .* https://www.modius-techblog.de/python-mysql-verbindung-mit-mysql-connector/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/sicherheit\/computersicherheit\-fuer\-unternehmen\-ein\-feld\-fuer\-experten\/$
+RewriteRule .* https://www.modius-techblog.de/computersicherheit-fuer-unternehmen-ein-feld-fuer-experten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/docker\/docker\-compose\-guide\/$
+RewriteRule .* https://www.modius-techblog.de/docker-compose-guide/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/development\/automatisierte\-dokumentation\-von\-python\-projekten\-mit\-sphinx\/$
+RewriteRule .* https://www.modius-techblog.de/automatisierte-dokumentation-von-python-projekten-mit-sphinx/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/docker\/docker\-installation\-unter\-ubuntu\/$
+RewriteRule .* https://www.modius-techblog.de/docker-installation-unter-ubuntu/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/monitoring\/synology\-nas\-mit\-prometheus\-ueberwachen\/$
+RewriteRule .* https://www.modius-techblog.de/synology-nas-mit-prometheus-ueberwachen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/monitoring\/prometheus\-und\-grafana\-die\-erste\-visualisierung\/$
+RewriteRule .* https://www.modius-techblog.de/prometheus-und-grafana-die-erste-visualisierung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/monitoring\/prometheus\-node\-exporter\-fuer\-systemmetriken\/$
+RewriteRule .* https://www.modius-techblog.de/prometheus-node-exporter-fuer-systemmetriken/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/monitoring\/grafana\-installation\-unter\-linux\/$
+RewriteRule .* https://www.modius-techblog.de/grafana-installation-unter-linux/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/monitoring\/prometheus\-installation\-unter\-centos\/$
+RewriteRule .* https://www.modius-techblog.de/prometheus-installation-unter-centos/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/buecher\/wenn\-die\-dinge\-mit\-uns\-reden\/$
+RewriteRule .* https://www.modius-techblog.de/wenn-die-dinge-mit-uns-reden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/bltouch\-upgrade\-fuer\-den\-ender\-3\-pro\/$
+RewriteRule .* https://www.modius-techblog.de/bltouch-upgrade-fuer-den-ender-3-pro/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/creality\-ender\-3\-pro\/$
+RewriteRule .* https://www.modius-techblog.de/creality-ender-3-pro/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/python\-code\-mit\-pytest\-testen\/$
+RewriteRule .* https://www.modius-techblog.de/python-code-mit-pytest-testen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/visual\-studio\-code\-uebersicht\-der\-entwicklungsumgebung\/$
+RewriteRule .* https://www.modius-techblog.de/visual-studio-code-uebersicht-der-entwicklungsumgebung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/docker\-swarm\-unter\-centos\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/docker-swarm-unter-centos-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/docker\-container\-in\-kubernetes\-deployen\/$
+RewriteRule .* https://www.modius-techblog.de/docker-container-in-kubernetes-deployen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/installation\-eines\-kubernetes\-cluster\-unter\-centos\-7\/$
+RewriteRule .* https://www.modius-techblog.de/installation-eines-kubernetes-cluster-unter-centos-7/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/kubernetes\-installation\-unter\-centos\-mit\-minikube\/$
+RewriteRule .* https://www.modius-techblog.de/kubernetes-installation-unter-centos-mit-minikube/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/python\-unittest\-mit\-teamcity\/$
+RewriteRule .* https://www.modius-techblog.de/python-unittest-mit-teamcity/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/devops\-grundlagen\/$
+RewriteRule .* https://www.modius-techblog.de/devops-grundlagen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/eigene\-cloud\-mit\-nextcloudpi\/$
+RewriteRule .* https://www.modius-techblog.de/eigene-cloud-mit-nextcloudpi/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/musik\-mit\-sonoair\-vom\-mac\-zu\-sonos\-play\-streamen\/$
+RewriteRule .* https://www.modius-techblog.de/musik-mit-sonoair-vom-mac-zu-sonos-play-streamen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/installation\-von\-teamcity\-unter\-centos\/$
+RewriteRule .* https://www.modius-techblog.de/installation-von-teamcity-unter-centos/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/aws\-lambda\-ec2\-start\-und\-stop\-scripte\-mit\-tag\/$
+RewriteRule .* https://www.modius-techblog.de/aws-lambda-ec2-start-und-stop-scripte-mit-tag/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/jenkins\-plugin\-update\-durchfuhren\/$
+RewriteRule .* https://www.modius-techblog.de/jenkins-plugin-update-durchfuhren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/netstat\-command\-not\-found\-unter\-centos\-beheben\/$
+RewriteRule .* https://www.modius-techblog.de/netstat-command-not-found-unter-centos-beheben/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/5\-nuetzliche\-docker\-commandos\/$
+RewriteRule .* https://www.modius-techblog.de/5-nuetzliche-docker-commandos/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/installation\-von\-jenkins\-unter\-centos\/$
+RewriteRule .* https://www.modius-techblog.de/installation-von-jenkins-unter-centos/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/ersetzungsverfahren\-in\-kontext\-von\-genetischen\-algorithmen\/$
+RewriteRule .* https://www.modius-techblog.de/ersetzungsverfahren-in-kontext-von-genetischen-algorithmen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/data\-science\/rekombinationsverfahren\-bei\-genetischen\-algorithmen\/$
+RewriteRule .* https://www.modius-techblog.de/rekombinationsverfahren-bei-genetischen-algorithmen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/data\-science\/genetische\-algorithmen\-selektion\/$
+RewriteRule .* https://www.modius-techblog.de/genetische-algorithmen-selektion/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/grundlagen\-genetische\-algorithmen\/$
+RewriteRule .* https://www.modius-techblog.de/grundlagen-genetische-algorithmen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/systemctl\-tipps\-und\-tricks\/$
+RewriteRule .* https://www.modius-techblog.de/systemctl-tipps-und-tricks/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/docker\-registry\-aufbau\-eines\-privaten\-docker\-repositories\/$
+RewriteRule .* https://www.modius-techblog.de/docker-registry-aufbau-eines-privaten-docker-repositories/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/bodenfeuchtesensor\-zur\-pflanzenbewasserung\/$
+RewriteRule .* https://www.modius-techblog.de/bodenfeuchtesensor-zur-pflanzenbewasserung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/docker\-installation\-mit\-ansible\/$
+RewriteRule .* https://www.modius-techblog.de/docker-installation-mit-ansible/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/raspberry\-pi\-firmware\-update\/$
+RewriteRule .* https://www.modius-techblog.de/raspberry-pi-firmware-update/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/smart\-home\/iobroker\-auf\-dem\-raspberry\-pi\-installieren\-und\-konfigurieren\/$
+RewriteRule .* https://www.modius-techblog.de/iobroker-auf-dem-raspberry-pi-installieren-und-konfigurieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/wasserstanderkennung\-mit\-arduino\/$
+RewriteRule .* https://www.modius-techblog.de/wasserstanderkennung-mit-arduino/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/docker\/vier\-coole\-und\-interessante\-docker\-projekte\/$
+RewriteRule .* https://www.modius-techblog.de/vier-coole-und-interessante-docker-projekte/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/docker\/web\-entwicklungsumgebung\-mit\-docker\-realisieren\/$
+RewriteRule .* https://www.modius-techblog.de/web-entwicklungsumgebung-mit-docker-realisieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/kibana\-installation\-mit\-ansible\-automatisieren\/$
+RewriteRule .* https://www.modius-techblog.de/kibana-installation-mit-ansible-automatisieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/elasticsearch\-laden\-von\-daten\-mit\-python\/$
+RewriteRule .* https://www.modius-techblog.de/elasticsearch-laden-von-daten-mit-python/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/elasticsearch\-installation\-mit\-ansible\/$
+RewriteRule .* https://www.modius-techblog.de/elasticsearch-installation-mit-ansible/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/installation\-von\-kibana\-unter\-centos\/$
+RewriteRule .* https://www.modius-techblog.de/installation-von-kibana-unter-centos/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/elasticsearch\-installation\-und\-konfiguration\-unter\-centos\/$
+RewriteRule .* https://www.modius-techblog.de/elasticsearch-installation-und-konfiguration-unter-centos/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/smart\-home\/mqtt\-broker\-auf\-dem\-raspberry\-pi\/$
+RewriteRule .* https://www.modius-techblog.de/mqtt-broker-auf-dem-raspberry-pi/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/folium\-visualisierung\-von\-geodaten\-mit\-python\/$
+RewriteRule .* https://www.modius-techblog.de/folium-visualisierung-von-geodaten-mit-python/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/wie\-zuverlaessig\-sind\-plagiatssoftwares\/$
+RewriteRule .* https://www.modius-techblog.de/wie-zuverlaessig-sind-plagiatssoftwares/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/smart\-home\/fhem\-wifilight\-via\-ld382a\-mit\-led\-strip\-hinzufuegen\/$
+RewriteRule .* https://www.modius-techblog.de/fhem-wifilight-via-ld382a-mit-led-strip-hinzufuegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/smart\-home\/komfort\-und\-effizienz\-im\-smarten\-heizbetrieb\/$
+RewriteRule .* https://www.modius-techblog.de/komfort-und-effizienz-im-smarten-heizbetrieb/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/data\-science\/kafka\-producer\-und\-consumer\-in\-python\/$
+RewriteRule .* https://www.modius-techblog.de/kafka-producer-und-consumer-in-python/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/kafka\-standalone\-docker\-container\/$
+RewriteRule .* https://www.modius-techblog.de/kafka-standalone-docker-container/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/kafka\-speicherung\-der\-daten\/$
+RewriteRule .* https://www.modius-techblog.de/kafka-speicherung-der-daten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/systemctl\-fuer\-kafka\-und\-zookeeper\/$
+RewriteRule .* https://www.modius-techblog.de/systemctl-fuer-kafka-und-zookeeper/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/apache\-kafka\-auf\-dem\-raspberry\-pi\/$
+RewriteRule .* https://www.modius-techblog.de/apache-kafka-auf-dem-raspberry-pi/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/cloud\-computing\-fuer\-anfaenger\/$
+RewriteRule .* https://www.modius-techblog.de/cloud-computing-fuer-anfaenger/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/docker\-verwendung\-von\-volume\/$
+RewriteRule .* https://www.modius-techblog.de/docker-verwendung-von-volume/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/docker\-richtige\-handhabung\-von\-bind\-mounts\/$
+RewriteRule .* https://www.modius-techblog.de/docker-richtige-handhabung-von-bind-mounts/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-yum\-repository\-automatisieren\-auf\-centos\-mit\-yum\_repository\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-yum-repository-automatisieren-auf-centos-mit-yum_repository/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-get\_url\-modul\-zum\-laden\-von\-webinhalten\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-get_url-modul-zum-laden-von-webinhalten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/docker\-container\-anzeigen\-starten\-stoppen\-und\-loeschen\/$
+RewriteRule .* https://www.modius-techblog.de/docker-container-anzeigen-starten-stoppen-und-loeschen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/hadoop\-neuen\-benutzer\-anlegen\/$
+RewriteRule .* https://www.modius-techblog.de/hadoop-neuen-benutzer-anlegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/docker\-compose\-automatisiertes\-starten\-von\-microservices\/$
+RewriteRule .* https://www.modius-techblog.de/docker-compose-automatisiertes-starten-von-microservices/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/docker\-microservices\-key\-value\-store\-mit\-python\-und\-redis\/$
+RewriteRule .* https://www.modius-techblog.de/docker-microservices-key-value-store-mit-python-und-redis/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/docker\-network\-eine\-kleine\-uebersicht\/$
+RewriteRule .* https://www.modius-techblog.de/docker-network-eine-kleine-uebersicht/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/python\-flask\-app\-mit\-docker\-deployen\/$
+RewriteRule .* https://www.modius-techblog.de/python-flask-app-mit-docker-deployen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/big\-data\/spark\-2\-standalone\-auf\-hadoop\-single\-node\-cluster\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/spark-2-standalone-auf-hadoop-single-node-cluster-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/installation\-eines\-hadoop\-single\-node\-cluster\/$
+RewriteRule .* https://www.modius-techblog.de/installation-eines-hadoop-single-node-cluster/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ssh\-verbindung\-mit\-kerberos\-realisieren\/$
+RewriteRule .* https://www.modius-techblog.de/ssh-verbindung-mit-kerberos-realisieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/sicherheit\/kerberos\-richtig\-unter\-centos\-7\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/kerberos-richtig-unter-centos-7-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/data\-science\/deep\-learning\-lernmethoden\/$
+RewriteRule .* https://www.modius-techblog.de/deep-learning-lernmethoden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/data\-science\/deep\-learning\-loesungen\-mit\-neural\-network\/$
+RewriteRule .* https://www.modius-techblog.de/deep-learning-loesungen-mit-neural-network/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/anisible\-include\_role\-universal\-selinux\-und\-firewalld\-rolle\/$
+RewriteRule .* https://www.modius-techblog.de/anisible-include_role-universal-selinux-und-firewalld-rolle/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/eigenes\-docker\-images\-mit\-dockerfile\-erstellen\/$
+RewriteRule .* https://www.modius-techblog.de/eigenes-docker-images-mit-dockerfile-erstellen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/devops\/docker\-unter\-centos\-7\/$
+RewriteRule .* https://www.modius-techblog.de/docker-unter-centos-7/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-mysql\-role\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-mysql-role/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/so\-installiert\-man\-java\-mit\-ansible\/$
+RewriteRule .* https://www.modius-techblog.de/so-installiert-man-java-mit-ansible/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-installation\-von\-php\-mit\-einer\-php\-role\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-installation-von-php-mit-einer-php-role/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-vhost\-mit\-jinja2\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-vhost-mit-jinja2/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-httpd\-role\-teil\-2\-default\-vhost\-und\-ssl\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-httpd-role-teil-2-default-vhost-und-ssl-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-httpd\-role\-teil\-1\-installation\-und\-modulaktivierung\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-httpd-role-teil-1-installation-und-modulaktivierung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-playbook\-und\-ssh\-verbindung\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-playbook-und-ssh-verbindung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/ansible\/ansible\-installation\-und\-funktionstest\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-installation-und-funktionstest/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/sicherheit\/check\_apt\-mit\-icinga\-2\-paket\-updates\-im\-blick\-behalten\/$
+RewriteRule .* https://www.modius-techblog.de/check_apt-mit-icinga-2-paket-updates-im-blick-behalten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/dns\-server\-monitoring\-mit\-icinga2\-und\-check\_dns\/$
+RewriteRule .* https://www.modius-techblog.de/dns-server-monitoring-mit-icinga2-und-check_dns/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/bind9\-dns\-server\-und\-raspberry\-pi\/$
+RewriteRule .* https://www.modius-techblog.de/bind9-dns-server-und-raspberry-pi/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/nas\-server\-praktische\-datenspeicher\-mit\-vielen\-funktionen\/$
+RewriteRule .* https://www.modius-techblog.de/nas-server-praktische-datenspeicher-mit-vielen-funktionen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/smart\-home\/fhem\-tablet\-ui\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/fhem-tablet-ui-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/data\-science\/was\-genau\-ist\-ein\-expertensystem\/$
+RewriteRule .* https://www.modius-techblog.de/was-genau-ist-ein-expertensystem/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/ced\-compress\-edit\/$
+RewriteRule .* https://www.modius-techblog.de/ced-compress-edit/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/tomcat\-8\-und\-jolokia\/$
+RewriteRule .* https://www.modius-techblog.de/tomcat-8-und-jolokia/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/foto\-video\/mit\-dem\-smartphone\-bessere\-fotos\-knipsen\/$
+RewriteRule .* https://www.modius-techblog.de/mit-dem-smartphone-bessere-fotos-knipsen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/jupyter\-notebook\-unter\-macos\/$
+RewriteRule .* https://www.modius-techblog.de/jupyter-notebook-unter-macos/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/itsm\/dokumente\-digital\-sicher\-aufbewahren\/$
+RewriteRule .* https://www.modius-techblog.de/dokumente-digital-sicher-aufbewahren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/foto\-video\/videoschnitt\-software\-was\-ist\-das\-und\-wozu\-sind\-sie\-geeignet\/$
+RewriteRule .* https://www.modius-techblog.de/videoschnitt-software-was-ist-das-und-wozu-sind-sie-geeignet/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/itsm\/otrs\-6\-beta\-unter\-ubuntu\-16\-04\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/otrs-6-beta-unter-ubuntu-16-04-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/nextcloud\-https\-mit\-self\-signed\-zertifikat\-einrichten\/$
+RewriteRule .* https://www.modius-techblog.de/nextcloud-https-mit-self-signed-zertifikat-einrichten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/raspberry\-pi\-hc\-sr501\-bewegungsmelder\/$
+RewriteRule .* https://www.modius-techblog.de/raspberry-pi-hc-sr501-bewegungsmelder/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/zammad\-backup\-und\-restore\/$
+RewriteRule .* https://www.modius-techblog.de/zammad-backup-und-restore/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/nextcloud\-unter\-ubuntu\-16\-04\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/nextcloud-unter-ubuntu-16-04-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/telnet\-und\-tftp\-mit\-wireshark\-analysieren\/$
+RewriteRule .* https://www.modius-techblog.de/telnet-und-tftp-mit-wireshark-analysieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/otrs\-menuepunkte\-in\-der\-ticketansicht\-ueber\-menumodul\-ausblenden\/$
+RewriteRule .* https://www.modius-techblog.de/otrs-menuepunkte-in-der-ticketansicht-ueber-menumodul-ausblenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/racket\-beschreibung\-und\-installation\/$
+RewriteRule .* https://www.modius-techblog.de/racket-beschreibung-und-installation/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/zammad\-benutzer\-und\-gruppen\/$
+RewriteRule .* https://www.modius-techblog.de/zammad-benutzer-und-gruppen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/superset\-mit\-otrs\-datenbank\-verbinden\/$
+RewriteRule .* https://www.modius-techblog.de/superset-mit-otrs-datenbank-verbinden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/sicherheit\/icinga2\-raspberry\-pi\-monitoring\/$
+RewriteRule .* https://www.modius-techblog.de/icinga2-raspberry-pi-monitoring/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/maschinelles\-lernen\-und\-wissensrepraesentation\/$
+RewriteRule .* https://www.modius-techblog.de/maschinelles-lernen-und-wissensrepraesentation/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/openitcockpit\-update\-durchfuehren\/$
+RewriteRule .* https://www.modius-techblog.de/openitcockpit-update-durchfuehren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/zammad\-richtig\-unter\-ubuntu\-16\-04\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/zammad-richtig-unter-ubuntu-16-04-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/raspberry\-pi\-hc\-sr04\-ultraschall\-sensor\/$
+RewriteRule .* https://www.modius-techblog.de/raspberry-pi-hc-sr04-ultraschall-sensor/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/foto\-video\/nikon\-keymission\-360\-firmware\-update\-1\-3\/$
+RewriteRule .* https://www.modius-techblog.de/nikon-keymission-360-firmware-update-1-3/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/online\-visitenkarte\-aktueller\-job\-mit\-progress\-bar\-darstellen\/$
+RewriteRule .* https://www.modius-techblog.de/online-visitenkarte-aktueller-job-mit-progress-bar-darstellen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/airbnb\-superset\-richtig\-unter\-ubuntu\-16\-04\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/airbnb-superset-richtig-unter-ubuntu-16-04-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/raspberry\-pi\-temperatur\-und\-luftfeuchtigkeit\/$
+RewriteRule .* https://www.modius-techblog.de/raspberry-pi-temperatur-und-luftfeuchtigkeit/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/kuman\-camera\-sc15\-mit\-raspberry\-pi\-3\-richtig\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/kuman-camera-sc15-mit-raspberry-pi-3-richtig-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/foto\-video\/nikon\-keymission\-360\-snapbridge\-360170\/$
+RewriteRule .* https://www.modius-techblog.de/nikon-keymission-360-snapbridge-360170/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/online\-visitenkarte\-die\-erste\-sektion\-mit\-twig\/$
+RewriteRule .* https://www.modius-techblog.de/online-visitenkarte-die-erste-sektion-mit-twig/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/eigene\-online\-visitenkarte\-richtig\-erstellen\/$
+RewriteRule .* https://www.modius-techblog.de/eigene-online-visitenkarte-richtig-erstellen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/foto\-video\/nikon\-keymission\-360\/$
+RewriteRule .* https://www.modius-techblog.de/nikon-keymission-360/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/openitcockpit\-unter\-ubuntu\-16\-04\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/openitcockpit-unter-ubuntu-16-04-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/spiele\/spieltheorien\-des\-19\-jahrhundert\/$
+RewriteRule .* https://www.modius-techblog.de/spieltheorien-des-19-jahrhundert/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/bausatz\-fuer\-eine\-sunfounder\-sf210\-drohne\/$
+RewriteRule .* https://www.modius-techblog.de/bausatz-fuer-eine-sunfounder-sf210-drohne/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/datenbanken\/wie\-funktioniert\-redis\-unter\-os\-x\/$
+RewriteRule .* https://www.modius-techblog.de/wie-funktioniert-redis-unter-os-x/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/buecher\/stefan\-adam\-matlab\-und\-mathematik\-kompetent\-einsetzten\/$
+RewriteRule .* https://www.modius-techblog.de/stefan-adam-matlab-und-mathematik-kompetent-einsetzten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/datenbanken\/datenbanken\-normalisierung\/$
+RewriteRule .* https://www.modius-techblog.de/datenbanken-normalisierung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/datenbanken\/datenbanken\-wichtige\-begriffe\-im\-ueberblick\/$
+RewriteRule .* https://www.modius-techblog.de/datenbanken-wichtige-begriffe-im-ueberblick/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/otrs\-5\-cmdb\-api\-script\-mit\-webservices\/$
+RewriteRule .* https://www.modius-techblog.de/otrs-5-cmdb-api-script-mit-webservices/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/thimbler\/$
+RewriteRule .* https://www.modius-techblog.de/thimbler/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ansible\-apache\-konfiguration\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-apache-konfiguration/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/smart\-home\/homematic\-heizungsautomatisierung\-mit\-fhem\/$
+RewriteRule .* https://www.modius-techblog.de/homematic-heizungsautomatisierung-mit-fhem/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/buecher\/yvonne\-hofstetter\-das\-ende\-der\-demokratie\/$
+RewriteRule .* https://www.modius-techblog.de/yvonne-hofstetter-das-ende-der-demokratie/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/itch\-io\-christmas\-game\-jam\-2016\/$
+RewriteRule .* https://www.modius-techblog.de/itch-io-christmas-game-jam-2016/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/soft\-und\-hardlinks\-unter\-linux\/$
+RewriteRule .* https://www.modius-techblog.de/soft-und-hardlinks-unter-linux/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ansible\-aufbau\-der\-dateistruktur\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-aufbau-der-dateistruktur/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/suchmuster\-fuer\-dateien\-linux\/$
+RewriteRule .* https://www.modius-techblog.de/suchmuster-fuer-dateien-linux/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/software\-gilt\-ein\-programmierer\-als\-urheber\/$
+RewriteRule .* https://www.modius-techblog.de/software-gilt-ein-programmierer-als-urheber/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/aufbau\-und\-umgang\-mit\-der\-verzeichnisstruktur\-unter\-linux\/$
+RewriteRule .* https://www.modius-techblog.de/aufbau-und-umgang-mit-der-verzeichnisstruktur-unter-linux/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/remote\-access\-fuer\-mysql\-datenbanken\/$
+RewriteRule .* https://www.modius-techblog.de/remote-access-fuer-mysql-datenbanken/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/neuronale\-netze\-und\-php\/$
+RewriteRule .* https://www.modius-techblog.de/neuronale-netze-und-php/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ansible\-installation\-unter\-ubuntu\-16\-04\/$
+RewriteRule .* https://www.modius-techblog.de/ansible-installation-unter-ubuntu-16-04/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/effektiveres\-bewerbermanagement\-und\-e\-recruiting\/$
+RewriteRule .* https://www.modius-techblog.de/effektiveres-bewerbermanagement-und-e-recruiting/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/symfony3\-sonata\-admin\-bundle\/$
+RewriteRule .* https://www.modius-techblog.de/symfony3-sonata-admin-bundle/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/mysql\-root\-passwort\-zuruecksetzen\/$
+RewriteRule .* https://www.modius-techblog.de/mysql-root-passwort-zuruecksetzen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/atom\-ein\-hackbarer\-texteditor\/$
+RewriteRule .* https://www.modius-techblog.de/atom-ein-hackbarer-texteditor/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/eigene\-entwicklungsumgebung\-mit\-vim\-und\-vundle\/$
+RewriteRule .* https://www.modius-techblog.de/eigene-entwicklungsumgebung-mit-vim-und-vundle/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/grundlagen\-der\-software\-ergonomie\/$
+RewriteRule .* https://www.modius-techblog.de/grundlagen-der-software-ergonomie/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/openitcockpit\-module\-nachinstallieren\/$
+RewriteRule .* https://www.modius-techblog.de/openitcockpit-module-nachinstallieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/i\-doit\-api\-client\-installieren\-und\-konfigurieren\/$
+RewriteRule .* https://www.modius-techblog.de/i-doit-api-client-installieren-und-konfigurieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/openitcockpit\-check\_mk\-services\-anlegen\/$
+RewriteRule .* https://www.modius-techblog.de/openitcockpit-check_mk-services-anlegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/webprojekte\-mit\-phpstorm\-realisieren\/$
+RewriteRule .* https://www.modius-techblog.de/webprojekte-mit-phpstorm-realisieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/cms\_bundle\-fuer\-symfony\/$
+RewriteRule .* https://www.modius-techblog.de/cms_bundle-fuer-symfony/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/doit\-richtig\-unter\-ubuntu\-16\-04\-xenial\-xerus\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/doit-richtig-unter-ubuntu-16-04-xenial-xerus-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/openitcockpit\-richtig\-unter\-ubuntu\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/openitcockpit-richtig-unter-ubuntu-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/review\-sudio\-vasa\-bla\/$
+RewriteRule .* https://www.modius-techblog.de/review-sudio-vasa-bla/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/synology\-ds412\-firmware\-update\-auf\-dsm\-6\-0\-7321\/$
+RewriteRule .* https://www.modius-techblog.de/synology-ds412-firmware-update-auf-dsm-6-0-7321/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/windows\-10\-backup\-eines\-ordners\/$
+RewriteRule .* https://www.modius-techblog.de/windows-10-backup-eines-ordners/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-richtig\-unter\-ubuntu\-16\-04\-xenial\-xerus\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-richtig-unter-ubuntu-16-04-xenial-xerus-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-tutorials\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-tutorials/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/games\/minecraft\-server\-unter\-ubuntu\-16\-04\-xenial\-xerus\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/minecraft-server-unter-ubuntu-16-04-xenial-xerus-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ubuntu\-16\-04\-xenial\-xerus\-desktop\-und\-server\-installation\/$
+RewriteRule .* https://www.modius-techblog.de/ubuntu-16-04-xenial-xerus-desktop-und-server-installation/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/seafile\-unter\-centos\-7\-installieren\-howto\/$
+RewriteRule .* https://www.modius-techblog.de/seafile-unter-centos-7-installieren-howto/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-load\-check\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-load-check/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/mediawiki\-richtig\-unter\-centos\-7\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/mediawiki-richtig-unter-centos-7-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/otrs\-5\-unter\-centos\-7\-richtig\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/otrs-5-unter-centos-7-richtig-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/vmware\-vcenter\-server\-update\-von\-5\-5\-auf\-6\-0\/$
+RewriteRule .* https://www.modius-techblog.de/vmware-vcenter-server-update-von-5-5-auf-6-0/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/kibana\-4\-unter\-centos\-7\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/kibana-4-unter-centos-7-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/elasticsearch\-unter\-centos\-7\-richtig\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/elasticsearch-unter-centos-7-richtig-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/centos\-7\-apache\-installation\-mit\-php\-7\/$
+RewriteRule .* https://www.modius-techblog.de/centos-7-apache-installation-mit-php-7/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/installation\-von\-mongodb\-unter\-linux\-windows\-und\-mac\/$
+RewriteRule .* https://www.modius-techblog.de/installation-von-mongodb-unter-linux-windows-und-mac/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/3\-make\-rhein\-main\-ein\-kurzer\-rueckblick\/$
+RewriteRule .* https://www.modius-techblog.de/3-make-rhein-main-ein-kurzer-rueckblick/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/systemctl\-systemd\-richtig\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/systemctl-systemd-richtig-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/mongodb\-backup\-unter\-windows\/$
+RewriteRule .* https://www.modius-techblog.de/mongodb-backup-unter-windows/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/wordpress\-seite\-mit\-allen\-artikel\-einer\-bestimmten\-kategorie\-anlegen\/$
+RewriteRule .* https://www.modius-techblog.de/wordpress-seite-mit-allen-artikel-einer-bestimmten-kategorie-anlegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/node\-js\-hello\-world\/$
+RewriteRule .* https://www.modius-techblog.de/node-js-hello-world/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/prozesse\-unter\-linux\/$
+RewriteRule .* https://www.modius-techblog.de/prozesse-unter-linux/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/node\-js\-unter\-os\-x\-windows\-linux\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/node-js-unter-os-x-windows-linux-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/mysql\-zugriff\-via\-php\/$
+RewriteRule .* https://www.modius-techblog.de/mysql-zugriff-via-php/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-host\-und\-servicegruppen\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-host-und-servicegruppen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/mariadb\-testdatenbank\-anlegen\/$
+RewriteRule .* https://www.modius-techblog.de/mariadb-testdatenbank-anlegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apple\/os\-x\-10\-11\-el\-capitan\-lokale\-entwicklungsumgebung\-mit\-apache\-php\-und\-mysql\/$
+RewriteRule .* https://www.modius-techblog.de/os-x-10-11-el-capitan-lokale-entwicklungsumgebung-mit-apache-php-und-mysql/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/arten\-von\-betriebssystemen\/$
+RewriteRule .* https://www.modius-techblog.de/arten-von-betriebssystemen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-timeperiod\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-timeperiod/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/centos\-7\-openfire\-richtig\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/centos-7-openfire-richtig-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-notifications\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-notifications/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-windows\-ueberwachung\-mit\-nsclient\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-windows-ueberwachung-mit-nsclient/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/zabbix\-richtig\-unter\-centos\-7\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/zabbix-richtig-unter-centos-7-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-web\-2\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-web-2-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/piwik\-datenerhebung\/$
+RewriteRule .* https://www.modius-techblog.de/piwik-datenerhebung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/piwik\-unter\-centos\-7\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/piwik-unter-centos-7-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/wordpress\-plugin\-maintenance\/$
+RewriteRule .* https://www.modius-techblog.de/wordpress-plugin-maintenance/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/mysql\-masterslave\-replikation\-mit\-mariadb\-unter\-centos\-7\/$
+RewriteRule .* https://www.modius-techblog.de/mysql-masterslave-replikation-mit-mariadb-unter-centos-7/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga2\-wie\-ueberwache\-eine\-externe\-seite\/$
+RewriteRule .* https://www.modius-techblog.de/icinga2-wie-ueberwache-eine-externe-seite/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/einbinden\-eines\-ssl\-zertifikates\-untere\-apache\-2\/$
+RewriteRule .* https://www.modius-techblog.de/einbinden-eines-ssl-zertifikates-untere-apache-2/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/c\-wie\-berechne\-ich\-das\-datum\-von\-ostersonntag\/$
+RewriteRule .* https://www.modius-techblog.de/c-wie-berechne-ich-das-datum-von-ostersonntag/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga2\-den\-ersten\-host\-ueberwachen\/$
+RewriteRule .* https://www.modius-techblog.de/icinga2-den-ersten-host-ueberwachen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/allgemein\/rss\-von\-feedly\-nach\-tinytinyrss\/$
+RewriteRule .* https://www.modius-techblog.de/rss-von-feedly-nach-tinytinyrss/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/synology\-ds412\-firmware\-aktualisierung\/$
+RewriteRule .* https://www.modius-techblog.de/synology-ds412-firmware-aktualisierung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/icinga\-2\-richtig\-unter\-centos\-7\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/icinga-2-richtig-unter-centos-7-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apple\/owncloud\-kalender\-ical\/$
+RewriteRule .* https://www.modius-techblog.de/owncloud-kalender-ical/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/games\/minecraft\-resurrection\-powersuite\-rezept\/$
+RewriteRule .* https://www.modius-techblog.de/minecraft-resurrection-powersuite-rezept/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/owncloud\-windows\-8\-caldav\-und\-thunderbird\/$
+RewriteRule .* https://www.modius-techblog.de/owncloud-windows-8-caldav-und-thunderbird/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/technik\/review\-august\-ep640\-bluetooth\-v4\-0\-nfc\-kopfhoerer\/$
+RewriteRule .* https://www.modius-techblog.de/review-august-ep640-bluetooth-v4-0-nfc-kopfhoerer/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/fritzbox\-owncloud\-ueber\-das\-internet\-erreichen\/$
+RewriteRule .* https://www.modius-techblog.de/fritzbox-owncloud-ueber-das-internet-erreichen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/owncloud\-neuen\-user\-und\-gruppe\-anlegen\/$
+RewriteRule .* https://www.modius-techblog.de/owncloud-neuen-user-und-gruppe-anlegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/wordpress\-4\-1\-richtig\-unter\-linux\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/wordpress-4-1-richtig-unter-linux-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/neuer\-ftp\-zugang\-zum\-inkl\-webspace\/$
+RewriteRule .* https://www.modius-techblog.de/neuer-ftp-zugang-zum-inkl-webspace/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/ssh\-zugriff\-mit\-putty\/$
+RewriteRule .* https://www.modius-techblog.de/ssh-zugriff-mit-putty/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/fail2ban\-richtig\-unter\-centos\-7\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/fail2ban-richtig-unter-centos-7-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ip\-ifconfig\-der\-vergleich\/$
+RewriteRule .* https://www.modius-techblog.de/ip-ifconfig-der-vergleich/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/externe\-festplatte\-fritzbox\-7490\-anschliessen\/$
+RewriteRule .* https://www.modius-techblog.de/externe-festplatte-fritzbox-7490-anschliessen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/powershell\-services\-via\-script\-checken\/$
+RewriteRule .* https://www.modius-techblog.de/powershell-services-via-script-checken/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/c\-summe\-berechnen\-auf\-vier\-verschiede\-weisen\/$
+RewriteRule .* https://www.modius-techblog.de/c-summe-berechnen-auf-vier-verschiede-weisen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/linux\-cpu\-usage\-limit\-bei\-prozess\/$
+RewriteRule .* https://www.modius-techblog.de/linux-cpu-usage-limit-bei-prozess/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/windows\-powershell\-http\-check\/$
+RewriteRule .* https://www.modius-techblog.de/windows-powershell-http-check/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/sicherheit\/richte\-ich\-ein\-sicheres\-w\-lan\-mit\-der\-fritzbox\-7490\-ein\/$
+RewriteRule .* https://www.modius-techblog.de/richte-ich-ein-sicheres-w-lan-mit-der-fritzbox-7490-ein/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/drupal\-installation\-unter\-debian\-6\/$
+RewriteRule .* https://www.modius-techblog.de/drupal-installation-unter-debian-6/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/arduino\-4fach\-7\-segmentanzeige\-mit\-schieberegister\/$
+RewriteRule .* https://www.modius-techblog.de/arduino-4fach-7-segmentanzeige-mit-schieberegister/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/c\/$
+RewriteRule .* https://www.modius-techblog.de/c/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/rock\-crowd\-appvorstellung\/$
+RewriteRule .* https://www.modius-techblog.de/rock-crowd-appvorstellung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/cmono\-unter\-mac\-os\-x\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/cmono-unter-mac-os-x-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/windows\-netzwerkkonfiguration\-mit\-der\-powershell\/$
+RewriteRule .* https://www.modius-techblog.de/windows-netzwerkkonfiguration-mit-der-powershell/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/fail2ban\-auf\-einem\-linux\-server\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/fail2ban-auf-einem-linux-server-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/installation\-des\-smartfoxserver\-2x\/$
+RewriteRule .* https://www.modius-techblog.de/installation-des-smartfoxserver-2x/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apple\/braucht\-man\-eine\-sicherheitssoftware\-fuer\-den\-mac\/$
+RewriteRule .* https://www.modius-techblog.de/braucht-man-eine-sicherheitssoftware-fuer-den-mac/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/buecher\/google\-hacking\/$
+RewriteRule .* https://www.modius-techblog.de/google-hacking/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/cisco\-versuchsaufbau\-ospf\-konfigurieren\/$
+RewriteRule .* https://www.modius-techblog.de/cisco-versuchsaufbau-ospf-konfigurieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/games\/minecraft\-bukkit\-server\-unter\-linux\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/minecraft-bukkit-server-unter-linux-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/c\-klasse\-grundlagen\-mit\-einer\-raumschiff\-klasse\/$
+RewriteRule .* https://www.modius-techblog.de/c-klasse-grundlagen-mit-einer-raumschiff-klasse/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/apache2\-webserver\-security\/$
+RewriteRule .* https://www.modius-techblog.de/apache2-webserver-security/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/rechner\-cache\-leeren\-und\-registryaufraeumen\-mit\-ccleaner\/$
+RewriteRule .* https://www.modius-techblog.de/rechner-cache-leeren-und-registryaufraeumen-mit-ccleaner/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/c\-eine\-kleine\-karte\-erstellen\/$
+RewriteRule .* https://www.modius-techblog.de/c-eine-kleine-karte-erstellen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/games\/neverwinter\/$
+RewriteRule .* https://www.modius-techblog.de/neverwinter/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/c\-casting\-typenumwandlung\/$
+RewriteRule .* https://www.modius-techblog.de/c-casting-typenumwandlung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apple\/5\-nuetzliche\-tipps\-fuer\-jeden\-apple\-user\/$
+RewriteRule .* https://www.modius-techblog.de/5-nuetzliche-tipps-fuer-jeden-apple-user/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/games\/minecraft\-bukkit\-server\-dynmap\-installieren\-und\-konfigurieren\/$
+RewriteRule .* https://www.modius-techblog.de/minecraft-bukkit-server-dynmap-installieren-und-konfigurieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/funksteckdose\-mit\-raspberry\-pi\-ansteuern\/$
+RewriteRule .* https://www.modius-techblog.de/funksteckdose-mit-raspberry-pi-ansteuern/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/cisco\-versuchsaufbau\-ip\-vergabe\/$
+RewriteRule .* https://www.modius-techblog.de/cisco-versuchsaufbau-ip-vergabe/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/bukkit\-minecraft\-server\-admin\-accounts\-eintragen\/$
+RewriteRule .* https://www.modius-techblog.de/bukkit-minecraft-server-admin-accounts-eintragen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/teamspeak\-3\-server\-konfiguration\/$
+RewriteRule .* https://www.modius-techblog.de/teamspeak-3-server-konfiguration/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/eigenen\-teamspeak\-3\-server\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/eigenen-teamspeak-3-server-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/asus\-n13\-raspberry\-pi\/$
+RewriteRule .* https://www.modius-techblog.de/asus-n13-raspberry-pi/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/led\-mit\-dem\-raspberry\-pi\-ansteuern\/$
+RewriteRule .* https://www.modius-techblog.de/led-mit-dem-raspberry-pi-ansteuern/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/google\/vpn\-zugang\-unter\-android\-4\-3\-einichten\/$
+RewriteRule .* https://www.modius-techblog.de/vpn-zugang-unter-android-4-3-einichten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/schaltplan\-und\-elektronische\-planung\/$
+RewriteRule .* https://www.modius-techblog.de/schaltplan-und-elektronische-planung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/fritzbox\-7490\-vpn\-mit\-dyndns\-einrichten\/$
+RewriteRule .* https://www.modius-techblog.de/fritzbox-7490-vpn-mit-dyndns-einrichten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/raspberry\-pi\-noobs\-installation\/$
+RewriteRule .* https://www.modius-techblog.de/raspberry-pi-noobs-installation/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/netzwerk\-co\/fritzbox\-7490\-firmeware\-update\/$
+RewriteRule .* https://www.modius-techblog.de/fritzbox-7490-firmeware-update/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/games\/anno\-online\/$
+RewriteRule .* https://www.modius-techblog.de/anno-online/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/raspberry\-pi\-ein\-kleines\-projekt\/$
+RewriteRule .* https://www.modius-techblog.de/raspberry-pi-ein-kleines-projekt/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/apache\-2\-mod\_security\-fuer\-owncloud\-installieren\-und\-konfigurieren\/$
+RewriteRule .* https://www.modius-techblog.de/apache-2-mod_security-fuer-owncloud-installieren-und-konfigurieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/jahresrueckblick\-2013\/$
+RewriteRule .* https://www.modius-techblog.de/jahresrueckblick-2013/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/c\-und\-sdl\-movement\/$
+RewriteRule .* https://www.modius-techblog.de/c-und-sdl-movement/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/web\-engineering\-1\-das\-siebte\-und\-achte\-kapitel\/$
+RewriteRule .* https://www.modius-techblog.de/web-engineering-1-das-siebte-und-achte-kapitel/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/wordpress\-im\-neuen\-look\/$
+RewriteRule .* https://www.modius-techblog.de/wordpress-im-neuen-look/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/besucherzahlen\-uns\-suchbegriffe\-november\-2013\/$
+RewriteRule .* https://www.modius-techblog.de/besucherzahlen-uns-suchbegriffe-november-2013/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/zettabyte\-file\-system\-zfs\/$
+RewriteRule .* https://www.modius-techblog.de/zettabyte-file-system-zfs/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/web\-engineering\-1\-das\-sechste\-kapitel\-ist\-vorbei\/$
+RewriteRule .* https://www.modius-techblog.de/web-engineering-1-das-sechste-kapitel-ist-vorbei/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/eigenes\-git\-repository\-auf\-lokalen\-rechner\/$
+RewriteRule .* https://www.modius-techblog.de/eigenes-git-repository-auf-lokalen-rechner/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/codecademy\-lernplattform\-fuer\-den\-programmierer\-von\-morgen\/$
+RewriteRule .* https://www.modius-techblog.de/codecademy-lernplattform-fuer-den-programmierer-von-morgen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/web\-engineering\-1\-das\-vierte\-kapitel\-ist\-geschafft\/$
+RewriteRule .* https://www.modius-techblog.de/web-engineering-1-das-vierte-kapitel-ist-geschafft/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/web\-engineering\-1\-das\-dritte\-kapitel\/$
+RewriteRule .* https://www.modius-techblog.de/web-engineering-1-das-dritte-kapitel/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/besucherzahlen\-und\-suchbegriffe\/$
+RewriteRule .* https://www.modius-techblog.de/besucherzahlen-und-suchbegriffe/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/web\-engineering\-1\-das\-zweite\-kapitel\/$
+RewriteRule .* https://www.modius-techblog.de/web-engineering-1-das-zweite-kapitel/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/tag\-cloud\-fuer\-meinen\-blog\/$
+RewriteRule .* https://www.modius-techblog.de/tag-cloud-fuer-meinen-blog/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/debian\-und\-adaptect\-7805q\/$
+RewriteRule .* https://www.modius-techblog.de/debian-und-adaptect-7805q/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/web\-engineering\-1\-erste\-kapitel\/$
+RewriteRule .* https://www.modius-techblog.de/web-engineering-1-erste-kapitel/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/mooc\-web\-engineering\-i\-grundlagen\-web\-entwicklung\/$
+RewriteRule .* https://www.modius-techblog.de/mooc-web-engineering-i-grundlagen-web-entwicklung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apple\/ios\-7\-ipsec\-vpn\-verbindung\-einrichten\/$
+RewriteRule .* https://www.modius-techblog.de/ios-7-ipsec-vpn-verbindung-einrichten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/ende\-blogparade\/$
+RewriteRule .* https://www.modius-techblog.de/ende-blogparade/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/elearning\/in\-memory\-data\-management\-2013\-mein\-erster\-mooc\/$
+RewriteRule .* https://www.modius-techblog.de/in-memory-data-management-2013-mein-erster-mooc/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/das\-e\-book\-zur\-blogparade\-ohne\-welche\-drei\-wp\-plugins\-koennt\-ihr\-nicht\-mehr\-leben\/$
+RewriteRule .* https://www.modius-techblog.de/das-e-book-zur-blogparade-ohne-welche-drei-wp-plugins-koennt-ihr-nicht-mehr-leben/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/spieleprogrammierung\-mit\-c\-und\-sdl\/$
+RewriteRule .* https://www.modius-techblog.de/spieleprogrammierung-mit-c-und-sdl/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/iptables\-fuer\-einen\-webserver\/$
+RewriteRule .* https://www.modius-techblog.de/iptables-fuer-einen-webserver/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/suid\-bit\-finden\/$
+RewriteRule .* https://www.modius-techblog.de/suid-bit-finden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ubuntu\-festplatten\-check\-mit\-badblocks\/$
+RewriteRule .* https://www.modius-techblog.de/ubuntu-festplatten-check-mit-badblocks/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/blogparade\-tipps\-und\-tricks\-zur\-autoren\-box\/$
+RewriteRule .* https://www.modius-techblog.de/blogparade-tipps-und-tricks-zur-autoren-box/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/ende\-der\-blogparade\-ohne\-welche\-wo\-plugins\-koennt\-ihr\-nicht\-leben\/$
+RewriteRule .* https://www.modius-techblog.de/ende-der-blogparade-ohne-welche-wo-plugins-koennt-ihr-nicht-leben/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/ohne\-welche\-drei\-plugins\-kann\-ich\-nicht\-mehr\-leben\/$
+RewriteRule .* https://www.modius-techblog.de/ohne-welche-drei-plugins-kann-ich-nicht-mehr-leben/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/zwischenbericht\-blogparade\-ohne\-welche\-drei\-wp\-plugins\-konnt\-ihr\-nicht\-mehr\-leben\/$
+RewriteRule .* https://www.modius-techblog.de/zwischenbericht-blogparade-ohne-welche-drei-wp-plugins-konnt-ihr-nicht-mehr-leben/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/ms\-sql\-2010\-richtig\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/ms-sql-2010-richtig-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/entfernen\-unnotiger\-pakete\/$
+RewriteRule .* https://www.modius-techblog.de/entfernen-unnotiger-pakete/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/server\-harten\-grundlagen\/$
+RewriteRule .* https://www.modius-techblog.de/server-harten-grundlagen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/blogparade\-ohne\-welche\-drei\-wp\-plugins\-konnt\-ihr\-nicht\-mehr\-leben\/$
+RewriteRule .* https://www.modius-techblog.de/blogparade-ohne-welche-drei-wp-plugins-konnt-ihr-nicht-mehr-leben/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/einrichten\-einer\-sicheren\-verbindung\-zum\-owncloud\-server\/$
+RewriteRule .* https://www.modius-techblog.de/einrichten-einer-sicheren-verbindung-zum-owncloud-server/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/owncloud\-client\-richtig\-unter\-ubuntu\-13\-04\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/owncloud-client-richtig-unter-ubuntu-13-04-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/weitere\-infos\-zur\-blogparade\-lohnen\-sich\-facebook\-twitter\-co\-uberhaupt\/$
+RewriteRule .* https://www.modius-techblog.de/weitere-infos-zur-blogparade-lohnen-sich-facebook-twitter-co-uberhaupt/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/sicherheit\/wie\-harte\-ich\-richtig\-einen\-linux\-server\/$
+RewriteRule .* https://www.modius-techblog.de/wie-harte-ich-richtig-einen-linux-server/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/ebook\-zur\-blogparade\-traffictipps\/$
+RewriteRule .* https://www.modius-techblog.de/ebook-zur-blogparade-traffictipps/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/lohnen\-sich\-facebook\-twitter\-und\-co\-fur\-blogger\-wirklich\/$
+RewriteRule .* https://www.modius-techblog.de/lohnen-sich-facebook-twitter-und-co-fur-blogger-wirklich/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/neue\-maschine\-in\-virtualbox\-anlegen\/$
+RewriteRule .* https://www.modius-techblog.de/neue-maschine-in-virtualbox-anlegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/rechtevergabe\-unter\-linux\/$
+RewriteRule .* https://www.modius-techblog.de/rechtevergabe-unter-linux/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/google\/google\-suche\-optimieren\/$
+RewriteRule .* https://www.modius-techblog.de/google-suche-optimieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/screencarst\-auch\-ich\-habe\-meinen\-ersten\-abgedreht\/$
+RewriteRule .* https://www.modius-techblog.de/screencarst-auch-ich-habe-meinen-ersten-abgedreht/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/fremd\-community\-als\-traffic\-boost\/$
+RewriteRule .* https://www.modius-techblog.de/fremd-community-als-traffic-boost/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/ein\-taskmanager\-fur\-android\/$
+RewriteRule .* https://www.modius-techblog.de/ein-taskmanager-fur-android/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/echobot\/$
+RewriteRule .* https://www.modius-techblog.de/echobot/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ubuntu\-13\-04\-verschlusselte\-installation\/$
+RewriteRule .* https://www.modius-techblog.de/ubuntu-13-04-verschlusselte-installation/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/ingress\-augmented\-reality\/$
+RewriteRule .* https://www.modius-techblog.de/ingress-augmented-reality/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/owncloud\-client\-unter\-windows\-7\-richtig\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/owncloud-client-unter-windows-7-richtig-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/minecraft\-server\-bukkit\-einstellungsmoglichkeiten\/$
+RewriteRule .* https://www.modius-techblog.de/minecraft-server-bukkit-einstellungsmoglichkeiten/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-ende\-der\-artikelserie\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-ende-der-artikelserie/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/smart\-office\-2\-dokumentenbearbeitung\-unterwegs\/$
+RewriteRule .* https://www.modius-techblog.de/smart-office-2-dokumentenbearbeitung-unterwegs/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/minecraft\-server\-unter\-ubuntu\-server\-12\-10\-richtig\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/minecraft-server-unter-ubuntu-server-12-10-richtig-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-berechnung\-des\-flacheninhaltes\-eines\-rechteckes\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-berechnung-des-flacheninhaltes-eines-rechteckes/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/immer\-auf\-dem\-laufenden\-mit\-securitynews\/$
+RewriteRule .* https://www.modius-techblog.de/immer-auf-dem-laufenden-mit-securitynews/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/games\/spiele\-spiele\-und\-noch\-mehr\-spiele\/$
+RewriteRule .* https://www.modius-techblog.de/spiele-spiele-und-noch-mehr-spiele/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/gnome\-3\-unter\-ubuntu\-12\-10\/$
+RewriteRule .* https://www.modius-techblog.de/gnome-3-unter-ubuntu-12-10/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/mikrokontroller\/wie\-richte\-ich\-xbmcremote\-richtig\-fur\-raspbmc\-ein\/$
+RewriteRule .* https://www.modius-techblog.de/wie-richte-ich-xbmcremote-richtig-fur-raspbmc-ein/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-die\-funktion\-member\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-die-funktion-member-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/ein\-kleines\-spiel\-fur\-zwischendurch\/$
+RewriteRule .* https://www.modius-techblog.de/ein-kleines-spiel-fur-zwischendurch/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/wie\-installiere\-ich\-ubuntu\-12\-10\-verschlusselt\/$
+RewriteRule .* https://www.modius-techblog.de/wie-installiere-ich-ubuntu-12-10-verschlusselt/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-die\-funktion\-map\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-die-funktion-map-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/die\-richtige\-steuerung\-fur\-xbmc\/$
+RewriteRule .* https://www.modius-techblog.de/die-richtige-steuerung-fur-xbmc/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-funktion\-anlegen\-und\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-funktion-anlegen-und-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/sicherheit\/cyberwar\-dokumentation\/$
+RewriteRule .* https://www.modius-techblog.de/cyberwar-dokumentation/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/owncloud\-auf\-dem\-ubuntu\-12\-10\-homeserver\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/owncloud-auf-dem-ubuntu-12-10-homeserver-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/windows\/windows\-server\-2008\-richtig\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/windows-server-2008-richtig-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/google\-drive\-auf\-dem\-smartphone\/$
+RewriteRule .* https://www.modius-techblog.de/google-drive-auf-dem-smartphone/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/spamkommentare\-ade\-mit\-antispam\-bee\-1\-5\/$
+RewriteRule .* https://www.modius-techblog.de/spamkommentare-ade-mit-antispam-bee-1-5/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-listen\-anlegen\-und\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-listen-anlegen-und-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ubuntu\-mysql\-5\-5\-nutzer\-mit\-eigener\-datenbank\-anlegen\/$
+RewriteRule .* https://www.modius-techblog.de/ubuntu-mysql-5-5-nutzer-mit-eigener-datenbank-anlegen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/die\-richtige\-ebook\-app\-fur\-ios\-6\/$
+RewriteRule .* https://www.modius-techblog.de/die-richtige-ebook-app-fur-ios-6/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/raspbmc\-version\-1\/$
+RewriteRule .* https://www.modius-techblog.de/raspbmc-version-1/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-anlegen\-und\-verwenden\-von\-structs\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-anlegen-und-verwenden-von-structs/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/facebook\-app\-fur\-ios\-6\/$
+RewriteRule .* https://www.modius-techblog.de/facebook-app-fur-ios-6/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/apache2\-mit\-php5\-und\-mysql\-5\-5\-unter\-ubuntu\-12\-10\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/apache2-mit-php5-und-mysql-5-5-unter-ubuntu-12-10-installieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/crayon\-syntax\-highlighter\-2\-1\-2\/$
+RewriteRule .* https://www.modius-techblog.de/crayon-syntax-highlighter-2-1-2/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/2\-click\-social\-media\-buttons\/$
+RewriteRule .* https://www.modius-techblog.de/2-click-social-media-buttons/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/shell\-scripting\-sicheres\-kopieren\/$
+RewriteRule .* https://www.modius-techblog.de/shell-scripting-sicheres-kopieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/internet\-bloggen\-co\/wordpress\-3\-5\-1\-installationsanleitung\/$
+RewriteRule .* https://www.modius-techblog.de/wordpress-3-5-1-installationsanleitung/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-konstanten\-anlegen\-und\-verwenden\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-konstanten-anlegen-und-verwenden/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/installation\-und\-konfiguration\-einer\-ssh\-verbindung\-zwischen\-einem\-ubuntu\-12\-10\-client\-und\-einem\-ubuntu\-12\-10\-server\/$
+RewriteRule .* https://www.modius-techblog.de/installation-und-konfiguration-einer-ssh-verbindung-zwischen-einem-ubuntu-12-10-client-und-einem-ubuntu-12-10-server/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/google\/google\-analytics\-die\-standardubersicht\/$
+RewriteRule .* https://www.modius-techblog.de/google-analytics-die-standardubersicht/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apple\/mehrere\-kalender\-zwischen\-google\-und\-ical\-synchronisieren\/$
+RewriteRule .* https://www.modius-techblog.de/mehrere-kalender-zwischen-google-und-ical-synchronisieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/apps\/app\-serie\-startet\-heute\-die\-dropboxapp\/$
+RewriteRule .* https://www.modius-techblog.de/app-serie-startet-heute-die-dropboxapp/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/ipv6\-unter\-ubuntu\-12\-10\-deaktivieren\/$
+RewriteRule .* https://www.modius-techblog.de/ipv6-unter-ubuntu-12-10-deaktivieren/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-mathematische\-aufgabe\-losen\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-mathematische-aufgabe-losen/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/programmierung\/dr\-racket\-5\-3\-1\-eine\-kleine\-tutorial\-reihe\/$
+RewriteRule .* https://www.modius-techblog.de/dr-racket-5-3-1-eine-kleine-tutorial-reihe/ [NE,R=301,L]
+
+RewriteCond %{REQUEST_URI} ^\/linux\/raspbmc\-mit\-macbook\-auf\-sd\-karte\-installieren\/$
+RewriteRule .* https://www.modius-techblog.de/raspbmc-mit-macbook-auf-sd-karte-installieren/ [NE,R=301,L]
+

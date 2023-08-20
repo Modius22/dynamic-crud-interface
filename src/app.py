@@ -46,12 +46,6 @@ async def get_table_structure(table: str):
         logger.info("Error in api call get_table_structure: {}".format(e))
 
 
-# @app.get("/{table}/{key}")
-# async def get_column(table: str, key: str):
-#    logger.info('Table: {} - Key: {}'.format(table,key))
-#    return 'jojo'
-
-
 @app.get("/table_data/{table}")
 async def get_table_data(table: str):
     logger.info("get table data of table: {}".format(table))

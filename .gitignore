@@ -137,3 +137,4 @@ test.py
 frontend*
 .devcontainer.json
 src/config.yaml
+.DS_Store
