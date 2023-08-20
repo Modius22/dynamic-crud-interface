@@ -1,70 +1,132 @@
-import json
+import helpers.db as db
+import uvicorn
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
-import yaml
-from sqlalchemy import MetaData, create_engine, inspect, insert
-from sqlalchemy.ext.automap import automap_base
-from sqlalchemy.orm import sessionmaker
+app = FastAPI()
 
+origins = ["*"]
 
-
-class DB:
-    def __init__(self, path='./'):
-        with open(path + "config.yaml", "r") as ymlfile:
-            cfg = yaml.safe_load(ymlfile)
-
-        db = cfg["database"]
-        self.engine = create_engine(
-            db["driver"]
-            + "://"
-            + db["user"]
-            + ":"
-            + db["password"]
-            + "@"
-            + db["url"]
-            + ":"
-            + db["port"]
-            + "/"
-            + db["name"]
-        )
-        sess = sessionmaker(bind=self.engine)
-        self.session = sess()
-
-        self.meta = MetaData()
-        self.inspector = inspect(self.engine)
-
-    def get_engine(self):
-        return self.engines
-
-    def get_session(self):
-        return self.session
-
-    def get_table_names(self):
-        return self.inspector.get_table_names()
-
-    def get_table_columns(self, table):
-        y = self.inspector.get_columns(table_name=table)
-        dicts = {}
-        for x in y:
-            print("key: {} - value:{}".format(x["name"], x["type"]))
-            dicts[x["name"]] = str(x["type"])
-        return json.dumps(dicts)
-
-    def get_table_data_all(self, table):
-        Base = automap_base()
-        Base.prepare(self.engine, reflect=True)
-        result = self.session.query(Base.classes[table]).all()
-
-        return result
-
-    def set_tabel_field(self, key, value):
-        # Base = automap_base()
-        # @ToDo: how can this be implemented: https://docs.sqlalchemy.org/en/14/core/dml.html
-        pass
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
-# test = DB()
+def hello_world():
+    """
+    Returns a simple "Hello World!" message.
 
-# x = test.get_table_names()
-# y = test.get_table_columns("test")
-#
-# data = test.get_table_data_all("test")
+    Returns:
+        str: A simple "Hello World!" message.
+    """
+    return "Hello World!"
+
+
+def get_db_data():
+    """
+    Returns a list of all table names in the database.
+
+    Returns:
+        list: A list of all table names in the database.
+    """
+    try:
+        test = db.DB()
+        data = test.get_table_names()
+        return data
+    except Exception as e:
+        app.logger.error(f"Error in api call get_db_names: {e}")
+
+
+def get_table_structure(table: str):
+    """
+    Returns a dictionary of all columns in the specified table.
+
+    Args:
+        table (str): The name of the table to retrieve column information for.
+
+    Returns:
+        dict: A dictionary of all columns in the specified table.
+    """
+    try:
+        test = db.DB()
+        app.logger.info(table)
+        data = test.get_table_columns(table)
+        return data
+    except Exception as e:
+        app.logger.error(f"Error in api call get_table_structure: {e}")
+
+
+def get_table_data(table: str):
+    """
+    Returns all data in the specified table.
+
+    Args:
+        table (str): The name of the table to retrieve data for.
+
+    Returns:
+        list: All data in the specified table.
+    """
+    app.logger.info(f"get table data of table: {table}")
+
+    test = db.DB()
+
+    data = test.get_table_data_all(table)
+    return data
+
+
+@app.get("/")
+async def root():
+    """
+    Returns a simple "Hello World!" message.
+
+    Returns:
+        str: A simple "Hello World!" message.
+    """
+    return hello_world()
+
+
+@app.get("/get_db_names")
+async def read_db_names():
+    """
+    Returns a list of all table names in the database.
+
+    Returns:
+        list: A list of all table names in the database.
+    """
+    return get_db_data()
+
+
+@app.get("/{table}/get_table_structure")
+async def read_table_structure(table: str):
+    """
+    Returns a dictionary of all columns in the specified table.
+
+    Args:
+        table (str): The name of the table to retrieve column information for.
+
+    Returns:
+        dict: A dictionary of all columns in the specified table.
+    """
+    return get_table_structure(table)
+
+
+@app.get("/table_data/{table}")
+async def read_table_data(table: str):
+    """
+    Returns all data in the specified table.
+
+    Args:
+        table (str): The name of the table to retrieve data for.
+
+    Returns:
+        list: All data in the specified table.
+    """
+    return get_table_data(table)
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=2000)
