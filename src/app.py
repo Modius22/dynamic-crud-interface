@@ -1,6 +1,6 @@
 import helpers.db as db
 import uvicorn
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
@@ -126,6 +126,68 @@ async def read_table_data(table: str):
         list: All data in the specified table.
     """
     return get_table_data(table)
+
+
+@app.route("/set_table_field", methods=["POST"])
+async def set_table_field(request: Request):
+    """
+    Sets the value of a field in the database.
+
+    Request Body:
+        table (str): The name of the table to update.
+        field (str): The name of the field to update.
+        value (any): The new value for the field.
+
+    Returns:
+        str: A message indicating whether the update was successful or not.
+    """
+    try:
+        data = request.get_json()
+        table = data["table"]
+        field = data["field"]
+        value = data["value"]
+
+        test = db.DB()
+        success = test.set_table_field(table, field, value)
+
+        if success:
+            return "Field updated successfully"
+        else:
+            return "Error updating field"
+
+    except Exception as e:
+        app.logger.error(f"Error in set_table_field API call: {e}")
+        return "Error updating field"
+
+
+@app.route("/update_table_structure", methods=["POST"])
+async def update_table_structure(request: Request):
+    """
+    Updates the schema of the specified table.
+
+    Request Body:
+        table (str): The name of the table to update.
+        new_schema (dict): The new schema for the table.
+
+    Returns:
+        str: A message indicating whether the update was successful or not.
+    """
+    try:
+        data = request.get_json()
+        table = data["table"]
+        new_schema = data["new_schema"]
+
+        test = db.DB()
+        success = test.update_table_structure(table, new_schema)
+
+        if success:
+            return "Table schema updated successfully"
+        else:
+            return "Error updating table schema"
+
+    except Exception as e:
+        app.logger.error(f"Error in update_table_structure API call: {e}")
+        return "Error updating table schema"
 
 
 if __name__ == "__main__":
