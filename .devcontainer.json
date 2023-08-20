@@ -12,7 +12,7 @@
     },
     "extensions": ["ms-python.python"],
     "forwardPorts": [8080],
-    "mounts": ["source=C:/Users/Modius/Documents/development/crud/src,target=/mnt/host/source/crud,type=bind",
+    "mounts": ["source=C:/cUsers/Modius/Documents/development/crud/src,target=/mnt/host/source/crud,type=bind",
             //   "source=/Users/Christian/Documents/privat_devs/dynamic-crud-interface/configs,target=/mnt/host/configs,type=bind"
             ],
     "containerEnv": {
